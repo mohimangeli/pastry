@@ -1,0 +1,32 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #fafafa;
+}
+
+header, footer {
+    text-align: center;
+    background: #f2d9e6;
+    padding: 20px;
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers items in the container */
+    padding: 20px;
+}
+
+.menu-item {
+    margin: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    width: 200px; /* Adjust based on your preference */
+    text-align: center;
+}
+
+.menu-item img {
+    width: 90%;
+    height: auto;
+}
