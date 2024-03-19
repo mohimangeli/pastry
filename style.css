@@ -31,3 +31,36 @@ header, footer {
     width: 100%;
     height: auto;
 }
+/* Base font size for desktops */
+body {
+    font-size: 16px;
+}
+
+/* Smaller font size for screens narrower than 768px */
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+}
+
+/* Even smaller font size for screens narrower than 480px */
+@media (max-width: 480px) {
+    body {
+        font-size: 12px;
+    }
+}
+h1 {
+    font-size: 2.5em; /* Base size for larger screens */
+}
+
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2em; /* Slightly smaller on tablets */
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.5em; /* Much smaller on phones */
+    }
+}
