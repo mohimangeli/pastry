@@ -66,14 +66,14 @@ header h1 {
     margin: 20px 0; /* Adds some vertical space above and below the text box */
 }
 
-.text-box-container input[type="text"] {
-    font-family: 'Comic Sans MS', sans-serif;
-    width: 60%; /* Sets the width of the text box */
-    padding: 10px; /* Adds some padding inside the text box */
-    font-size: 40px; /* Sets the font size within the text box */
-    border-radius: 5px; /* Rounds the corners of the text box */
-    border: 1px solid #ddd; /* Sets the border of the text box */
-    color: #000000; /* Sets the font color to black */
+.text-box-container textarea {
+    width: 100%; /* Ensures the textarea fits its container */
+    border: 1px solid #ddd; /* Style similar to your inputs */
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Calibri', sans-serif; /* Match your form's font styling */
+    font-size: 16px; /* Match your input text size */
+    resize: none; /* Prevents resizing */
 }
 @media (max-width: 768px) {
     header {
