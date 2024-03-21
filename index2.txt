@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sweeten you moments!</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+
+<header>
+    <h1>Sweeten you moments!</h1>
+</header>
+<!-- Text box for writing something -->
+<div class="text-box-container">
+    <input type="text" placeholder="Price: $11">
+</div>
+<!-- Text box for writing something -->
+<div class="text-box-container">
+    <input type="text" Ingredients:">
+</div>
+<section class="menu">
+    <article class="menu-item">
+        <!-- Wrap the image in an anchor tag -->
+        
+
+    <!-- Repeat for other pastries -->
+</section>
+<section class="menu">
+    <article class="menu-item">
+        <!-- Wrap the image in an anchor tag -->
+            <img src="cp1.jpg" alt="Cake 2">
+
+    </article>
+    <article class="menu-item">
+        <!-- Wrap the image in an anchor tag -->
+            <img src="cp2.jpg" alt="Cake 3">
+
+    </article>
+    <article class="menu-item">
+        <!-- Wrap the image in an anchor tag -->
+            <img src="cp3.jpg" alt="Cake 4">
+
+    <!-- Repeat for other pastries -->
+</section>
+
+
+</body>
+</html>
+

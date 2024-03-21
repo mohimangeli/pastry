@@ -15,38 +15,42 @@
 <section class="menu">
     <article class="menu-item">
         <!-- Wrap the image in an anchor tag -->
-        <a href="index1.html">
+        
             <img src="cake.jpg" alt="Cake">
         </a>
         <h2>Birthday Cake</h2>
-        <p>Click Here</p>
+        <p>$20</p>
     </article>
     <!-- Repeat for other pastries -->
 </section>
 <section class="menu">
     <article class="menu-item">
         <!-- Wrap the image in an anchor tag -->
-        <a href="page-for-cake2.html">
-            <img src="cake2.jpg" alt="Cake 2">
-        </a>
+            <img src="bc1.jpg" alt="Cake 2">
         <h2>Birthday Cake</h2>
         <p>$22</p>
     </article>
     <article class="menu-item">
         <!-- Wrap the image in an anchor tag -->
-        <a href="page-for-cake3.html">
-            <img src="cake3.jpg" alt="Cake 3">
-        </a>
+            <img src="bc2.jpg" alt="Cake 3">
         <h2>Birthday Cake</h2>
         <p>$22</p>
     </article>
     <article class="menu-item">
         <!-- Wrap the image in an anchor tag -->
-        <a href="page-for-cake4.html">
-            <img src="cake4.jpg" alt="Cake 4">
-        </a>
-        <h2>Birthday Cake</h2>
-        <p>$22</p>
+            <img src="bc4.jpg" alt="Cake 4">
+        
+    </article>
+    <article class="menu-item">
+        <!-- Wrap the image in an anchor tag -->
+            <img src="bc5.jpg" alt="Cake 4">
+        
+    </article>
+    <article class="menu-item">
+        <!-- Wrap the image in an anchor tag -->
+            <img src="bc6.jpg" alt="Cake 4">
+        
+     
     </article>
     <!-- Repeat for other pastries -->
 </section>

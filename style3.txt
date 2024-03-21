@@ -1,0 +1,77 @@
+body {
+    font-family: 'Calibri', sans-serif;
+    margin: 0;
+    padding: 0;
+    
+    background: #006400; /* Light yellow background */
+}
+
+header {
+    text-align: center;
+    background: none;
+    padding: 20px;
+    color: #000000; /* Changes text color to white */
+    font-size: 64px; /* Makes the font size larger */
+}
+
+@keyframes flyInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+header h1 {
+    animation: flyInFromLeft 3s ease-out;
+    opacity: forwards; /* Ensures the text starts invisible for the animation */
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers items in the container */
+    padding: 20px;
+    gap: 30px; /* Increases the gap for a more spacious layout */
+}
+
+.menu-item {
+    margin: 10px;
+    background: #fff; /* Keeps menu item background white for contrast */
+    border: 0px solid #ddd; /* Subtle border */
+    box-shadow: 0 28px 35px rgba(0,0,0,0.7); /* Increased depth with a more pronounced shadow */
+    border-radius: 10px; /* Rounds the corners for a softer look */
+    width: 400px; /* Adjust based on your preference */
+    text-align: center;
+    overflow: hidden; /* Ensures content fits neatly within the borders */
+}
+
+.menu-item img {
+    display: block; /* Makes the image a block-level element to allow margin auto */
+    margin: 20px auto; /* Centers the image horizontally and adds vertical space */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Adds a shadow effect for depth */
+    border: 1px solid #ddd; /* Optional: Adds a subtle border around the image */
+    max-width: 95%; /* Adjusts the image size to fit within the menu item */
+    height: auto; /* Maintains the image's aspect ratio */
+}
+
+.menu-item h2, .menu-item p {
+    margin: 10px 0; /* Adds vertical space around the title and price */
+}
+.text-box-container {
+    text-align: center; /* Center-aligns the text box */
+    margin: 20px 0; /* Adds some vertical space above and below the text box */
+}
+
+.text-box-container input[type="text"] {
+    font-family: 'Comic Sans MS', sans-serif;
+    width: 60%; /* Sets the width of the text box */
+    padding: 10px; /* Adds some padding inside the text box */
+    font-size: 40px; /* Sets the font size within the text box */
+    border-radius: 5px; /* Rounds the corners of the text box */
+    border: 1px solid #ddd; /* Sets the border of the text box */
+    color: #000000; /* Sets the font color to black */
+}

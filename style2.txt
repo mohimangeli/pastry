@@ -1,8 +1,8 @@
 body {
-    font-family: Calibri', sans-serif;
+    font-family: 'Arial', sans-serif;
     margin: 0;
     padding: 0;
-    background: #fafafa;
+    background: #fff9c4; /* Light yellow background */
 }
 
 header, footer {
@@ -26,7 +26,7 @@ header, footer {
     border: 1px solid #ddd;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Adds a subtle shadow for depth */
     border-radius: 8px; /* Rounds the corners for a softer look */
-    width: 200px; /* Adjust based on your preference */
+    width: 300px; /* Adjust based on your preference */
     text-align: center;
     overflow: hidden; /* Ensures content fits neatly within the borders */
 }
