@@ -13,11 +13,11 @@
 </header>
 <!-- Text box for writing something -->
 <div class="text-box-container">
-    <input type="text" placeholder="Price: $11">
+    <input type="text" placeholder="Price: $12">
 </div>
 <!-- Text box for writing something -->
 <div class="text-box-container">
-    <input type="text" Ingredients:">
+    <input type="text" Ingredients: Flaour, Butter, Water, Salt, Vanila, Sugar Cream">
 </div>
 <section class="menu">
     <article class="menu-item">
