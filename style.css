@@ -76,12 +76,21 @@ footer {
 }
 
 .popup-content {
-    position: relative; /* Needed for absolute positioning of the close button */
+    position: relative;
     background: white;
-    padding: 30px; /* Adjust padding to ensure content does not overlap close button */
+    padding: 30px;
     border-radius: 5px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    font-size: 20px; /* Larger font size for the content */
+    font-size: 20px; /* Base font size */
+    font-family: 'Roboto', sans-serif; /* Applies the Google Font to all popup content */
+}
+
+.popup-content h2 {
+    color: #7b113a; /* Velvet-like color for the header */
+}
+
+.popup-content p {
+    color: #006400; /* Dark green color for the paragraph */
 }
 
 .close-btn {
