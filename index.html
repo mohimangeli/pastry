@@ -3,6 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="popup" class="popup-overlay">
+    <div class="popup-content">
+        <span class="close-btn" onclick="closePopup()">&times;</span> <!-- Close button -->
+        <h2>Welcome to Shirino Bakery</h2>
+        <p>It's all about the dessert!</p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Sweetest Spot in College Station</title>
     <link rel="stylesheet" href="style.css">
 </head>
@@ -11,40 +33,45 @@
 <header>
     <h1>The Sweetest Spot in College Station</h1>
 </header>
-
-
+<!-- Adding a writable text box below the header -->
+<div class="text-box-container">
+    <input type="text" placeholder="I do it all with joy!" readonly>
+</div>
 <section class="menu">
     <article class="menu-item">
         <!-- Wrap the image in an anchor tag -->
         <a href="index1.html">
-            <img src="cake.jpg" alt="Cake 2">
+            <img src="cake.jpg" alt="Cake">
         </a>
         <h2>Birthday Cake</h2>
-        <p>Click on the Photo</p>
+        <p>Click Here</p>
+    </article>
+    <!-- Repeat for other pastries -->
+</section>
+<section class="menu">
+    <article class="menu-item">
+        <!-- Wrap the image in an anchor tag -->
+        <a href="page-for-cake2.html">
+            <img src="cake2.jpg" alt="Cake 2">
+        </a>
+        <h2>Birthday Cake</h2>
+        <p>$22</p>
     </article>
     <article class="menu-item">
         <!-- Wrap the image in an anchor tag -->
-        <a href="index2.html">
-            <img src="cp2.jpg" alt="Cake 2">
+        <a href="page-for-cake3.html">
+            <img src="cake3.jpg" alt="Cake 3">
         </a>
-        <h2>Cream Puff</h2>
-        <p>Click on the Photo</p>
+        <h2>Birthday Cake</h2>
+        <p>$22</p>
     </article>
     <article class="menu-item">
         <!-- Wrap the image in an anchor tag -->
-        <a href="index3.html">
-            <img src="baklava2.jpg" alt="Cake 3">
+        <a href="page-for-cake4.html">
+            <img src="cake4.jpg" alt="Cake 4">
         </a>
-        <h2>Baklava</h2>
-        <p>Click on the Photo</p>
-    </article>
-    <article class="menu-item">
-        <!-- Wrap the image in an anchor tag -->
-        <a href="index4.html">
-            <img src="roullette.jpg" alt="Cake 2">
-        </a>
-        <h2>Persian Roulette</h2>
-        <p>Click on the Photo</p>
+        <h2>Birthday Cake</h2>
+        <p>$22</p>
     </article>
     <!-- Repeat for other pastries -->
 </section>
