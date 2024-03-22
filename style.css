@@ -12,13 +12,6 @@ header {
     font-size: 32px; /* Updated font size for header */
 }
 
-footer {
-    text-align: center;
-    background: #f2d9e6;
-    padding: 20px;
-    color: #333; /* Ensures text color for better readability */
-    font-size: 28px; /* Different font size for footer */
-}
 
 .menu {
     display: flex;
@@ -130,19 +123,19 @@ footer {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #fff; /* Or any color that fits your design */
+    background-color: #fff; /* Feel free to change this color as per your website's color scheme */
 }
 
 footer a {
-    display: inline-block; /* Center the link */
+    display: inline-block; /* This helps in centering the image if the footer has text-align: center */
 }
 
-footer img {
-    width: 40px; /* Adjust based on your preference */
-    height: 40px;
-    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+.instagram-logo {
+    width: 80px; /* Set your desired width */
+    height: 80px; /* Set your desired height */
+    transition: transform 0.3s ease; /* For a smooth hover effect */
 }
 
-footer img:hover {
-    transform: scale(1.1); /* Slightly enlarge the logo on hover */
+.instagram-logo:hover {
+    transform: scale(1.1); /* Slightly enlarge the logo on hover for a nice effect */
 }
