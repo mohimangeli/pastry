@@ -1,0 +1,91 @@
+body {
+    font-family: 'Calibri', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #FFC30B; /* Honey color background */
+}
+
+header {
+    text-align: center;
+    background: none;
+    padding: 20px;
+    color: #000000; /* Ensures text color is black for better readability */
+    font-size: 64px; /* Larger font size for the header */
+}
+
+@keyframes flyInFromLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+header h1 {
+    animation: flyInFromLeft 3s ease-out;
+    animation-fill-mode: forwards; /* Corrected to ensure the text remains visible after the animation */
+}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Centers items in the container */
+    padding: 20px;
+    gap: 30px; /* Provides space between items */
+}
+
+.menu-item {
+    margin: 10px;
+    background: #fff; /* White background for contrast with the menu items */
+    border: 0px solid #ddd; /* Subtle border */
+    box-shadow: 0 28px 35px rgba(0,0,0,0.7); /* Shadow for depth */
+    border-radius: 10px; /* Rounded corners */
+    width: 400px; /* Adjust based on your preference */
+    text-align: center;
+    overflow: hidden; /* Ensures content fits neatly within the borders */
+}
+
+.menu-item img {
+    display: block; /* Block display for proper alignment */
+    margin: 20px auto; /* Centers the image horizontally */
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2); /* Shadow effect for depth */
+    border: 1px solid #ddd; /* Adds a subtle border */
+    max-width: 95%; /* Adjusts the image size to fit */
+    height: auto; /* Maintains the image's aspect ratio */
+}
+
+.menu-item h2, .menu-item p {
+    margin: 10px 0; /* Vertical space around the title and price */
+}
+
+.text-box-container {
+    text-align: center; /* Center alignment for the text box */
+    margin: 20px 0; /* Vertical space above and below */
+}
+
+.text-box-container input[type="text"] {
+    font-family: 'Comic Sans MS', sans-serif;
+    width: 60%; /* Width of the text box */
+    padding: 10px; /* Padding inside the text box */
+    font-size: 40px; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    border: 1px solid #ddd; /* Border */
+    color: #000000; /* Black font color */
+}
+
+@media (max-width: 768px) {
+    header {
+        font-size: 32px; /* Smaller font size on smaller screens */
+    }
+
+    .menu-item {
+        width: 90%; /* More flexible width for smaller screens */
+    }
+
+    .text-box-container input[type="text"] {
+        font-size: 20px; /* Smaller font size for the input on smaller screens */
+    }
+}
