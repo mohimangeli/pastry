@@ -127,3 +127,22 @@ footer {
         width: 90%; /* Slightly wider on smaller screens for better usability */
     }
 }
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff; /* Or any color that fits your design */
+}
+
+footer a {
+    display: inline-block; /* Center the link */
+}
+
+footer img {
+    width: 40px; /* Adjust based on your preference */
+    height: 40px;
+    transition: transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+footer img:hover {
+    transform: scale(1.1); /* Slightly enlarge the logo on hover */
+}
