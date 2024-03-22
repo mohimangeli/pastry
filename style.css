@@ -99,12 +99,21 @@ footer {
 }
 
 .text-box-container input[type="text"] {
-    width: 30%; /* Adjusts the width of the text box */
-    padding: 10px; /* Adds internal padding for text */
-    font-size: 48px; /* Adjusts the font size */
-    font-weight: bold; /* Makes the text bold */
-    border: 1px solid #ccc; /* Gives the text box a light border */
-    border-radius: 5px; /* Optionally rounds the corners */
-    background-color: #fff; /* Ensures the background is white */
-    box-shadow: 0 15px 32px rgba(0, 0, 0, 0.2); /* Adds a shadow below the text box */
+    width: 80%; /* Responsive width */
+    max-width: 400px; /* Maximum width to not extend too wide on larger screens */
+    padding: 10px; /* Adequate padding */
+    margin: 0 auto; /* Center align the text box */
+    display: block; /* Ensures the input is treated as a block-level element */
+    font-size: 16px; /* Readable font size */
+    color: #000; /* Text color set to black */
+    background-color: #fff; /* Background color to contrast the text color */
+    border: 1px solid #ccc; /* Subtle border */
+    border-radius: 5px; /* Rounded corners for aesthetics */
+}
+
+/* Additional styling for mobile responsiveness */
+@media (max-width: 768px) {
+    .text-box-container input[type="text"] {
+        width: 90%; /* Slightly wider on smaller screens for better usability */
+    }
 }
