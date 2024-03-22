@@ -123,19 +123,30 @@ header {
 footer {
     text-align: center;
     padding: 20px;
-    background-color: #fff; /* Feel free to change this color as per your website's color scheme */
+    background-color: #fff; /* Keep your existing background color */
+}
+
+/* Style the text span to align with the logo */
+footer span {
+    vertical-align: middle; /* Aligns the text vertically in the middle relative to the logo */
+    display: inline-block; /* Ensures the text is in line with the logo */
+    font-size: 20px; /* Adjust this as needed to match your design */
+    /* Add any additional styling for the text here */
 }
 
 footer a {
-    display: inline-block; /* This helps in centering the image if the footer has text-align: center */
+    display: inline-block; /* Keeps the image centered */
+    vertical-align: middle; /* Aligns the logo vertically in the middle relative to the text */
 }
 
 .instagram-logo {
-    width: 72px; /* Set your desired width */
-    height: 80px; /* Set your desired height */
-    transition: transform 0.3s ease; /* For a smooth hover effect */
+    width: 80px; /* Your desired width */
+    height: 80px; /* Your desired height */
+    transition: transform 0.3s ease; /* Smooth hover effect */
+    margin-left: 10px; /* Adds space between the text and the logo */
 }
 
 .instagram-logo:hover {
-    transform: scale(1.1); /* Slightly enlarge the logo on hover for a nice effect */
+    transform: scale(1.1); /* Enlarges the logo on hover */
+} on hover for a nice effect */
 }
