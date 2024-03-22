@@ -61,3 +61,50 @@ footer {
         font-size: 20px; /* Smaller font size for the input on smaller screens */
     }
 }
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: none; /* Initially hidden */
+    justify-content: center;
+    align-items: center;
+    opacity: 0; /* Start fully transparent for fade-in effect */
+    transition: opacity 0.5s ease; /* Smooth transition for the fade-in effect */
+}
+
+.popup-content {
+    position: relative; /* Needed for absolute positioning of the close button */
+    background: white;
+    padding: 30px; /* Adjust padding to ensure content does not overlap close button */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-size: 20px; /* Larger font size for the content */
+}
+
+.close-btn {
+    position: absolute;
+    top: 10px; /* Adjust these values as needed */
+    right: 10px;
+    font-size: 24px; /* Size of the cross */
+    font-weight: bold;
+    cursor: pointer; /* Changes the cursor to indicate it's clickable */
+    color: #7b113a; /* Color of the cross, choose what stands out */
+}
+.text-box-container {
+    text-align: center; /* Centers the text box if the container is full width */
+    padding: 20px; /* Adds some padding around the text box */
+}
+
+.text-box-container input[type="text"] {
+    width: 30%; /* Adjusts the width of the text box */
+    padding: 10px; /* Adds internal padding for text */
+    font-size: 48px; /* Adjusts the font size */
+    font-weight: bold; /* Makes the text bold */
+    border: 1px solid #ccc; /* Gives the text box a light border */
+    border-radius: 5px; /* Optionally rounds the corners */
+    background-color: #fff; /* Ensures the background is white */
+    box-shadow: 0 15px 32px rgba(0, 0, 0, 0.2); /* Adds a shadow below the text box */
+}
