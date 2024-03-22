@@ -105,11 +105,11 @@ footer {
     padding: 10px; /* Adequate padding */
     margin: 0 auto; /* Center align the text box */
     display: block; /* Ensures the input is treated as a block-level element */
-    font-size: 16px; /* Readable font size */
-    color: #000; /* Text color set to black */
+    font-size: 48px; /* Readable font size */
+    color: #000000; /* Text color set to black */
     background-color: #fff; /* Background color to contrast the text color */
     border: 1px solid #ccc; /* Subtle border */
-    border-radius: 5px; /* Rounded corners for aesthetics */
+    border-radius: 15px; /* Rounded corners for aesthetics */
 }
 
 /* Additional styling for mobile responsiveness */
