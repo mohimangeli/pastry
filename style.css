@@ -99,7 +99,7 @@ footer {
 }
 
 .text-box-container input[type="text"] {
-    font-family: 'Goudy Stout', serif; /* Attempt to use Goudy Stout, with fallbacks */
+    font-family: 'Arial Black', serif; /* Attempt to use Goudy Stout, with fallbacks */
     width: 80%; /* Responsive width */
     max-width: 400px; /* Maximum width to not extend too wide on larger screens */
     padding: 10px; /* Adequate padding */
